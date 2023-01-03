@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.a {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+    background-color: lightgreen;
+    text-align: center;
+    margin: 0 2px;
+    display: inline-block;
+}
+.cc {
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
+.a:hover {
+    background-color: yellow;
+}
+.email {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    margin: 120px -20px;
+    display: none;
+}
+.address {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    margin: 25px -20px;
+    display: none;
+}
+.cc:hover .email {
+    display: block;
+}
+.cc:hover .address {
+    display: block;
+}
+.box1 {
+    width: 100px;
+    height: 200px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    margin: 100px 200px;
+    position: absolute;
+}
+.box2 {
+    width: 100px;
+    height: 200px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    position: absolute;
+    margin: 100px 310px;
+}
+.box3 {
+    width: 100px;
+    height: 200px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    margin: 100px 420px;
+    position: absolute;
+}
+.box4 {
+    width: 100px;
+    height: 200px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    margin: 100px 530px;
+    position: absolute;
+}
